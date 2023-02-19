@@ -1,0 +1,48 @@
+.square_corners {
+  background-color: none;
+  position: absolute;
+  z-index: 7;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.circle_corners {
+  background-color: none;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  outline: 25px solid black;
+}
+.leftBottomSq_corners {
+  top: -50px;
+  left: 0px;
+}
+.leftBottomCi_corners {
+  left: 0px;
+  top: -50px;
+}
+.rightBottomSq_corners {
+  top: -50px;
+  right: 0px;
+}
+.rightBottomCi_corners {
+  right: 0px;
+  top: -50px;
+}
+.leftTopSq_corners {
+  bottom: -50px;
+  left: 0px;
+}
+.leftTopCi_corners {
+  left: 0px;
+  top: 0px;
+}
+.rightTopSq_corners {
+  bottom: -50px;
+  right: 0px;
+}
+.rightTopCi_corners {
+  left: -50px;
+  top: 0px;
+}

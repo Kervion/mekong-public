@@ -1,0 +1,47 @@
+/* ALERT */
+.react-confirm-alert-overlay {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+.react-confirm-alert-body {
+  background: var(--antiquewhite) !important;
+  color: var(--bciemny) !important;
+  word-wrap: break-word;
+}
+.react-confirm-alert-body > h1 {
+  color: var(--bciemny) !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+  font-size: 36px;
+  margin-left: 0px;
+}
+.react-confirm-alert-button-group {
+  display: flex;
+  justify-content: flex-end !important;
+}
+.react-confirm-alert-button-group > button {
+  background: var(--brazawy) !important;
+  color: var(--bciemny) !important;
+}
+
+/* MODAL */
+.modal_pops {
+  border-radius: 9px;
+  padding: 30px;
+  text-align: center;
+  font-size: larger;
+  background: var(--antiquewhite);
+  color: var(--bciemny);
+}
+
+/* POPOVER */
+.popover_pops {
+  background-color: var(--brazawy) !important;
+  color: var(--bciemny) !important;
+  border-radius: 6px;
+}
+.icon_pops {
+  margin: 0px 6px 4px 6px;
+  color: var(--brazawy);
+  background-color: var(--ciemny);
+  border-radius: 9px;
+  padding: 1px;
+}

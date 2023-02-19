@@ -1,0 +1,21 @@
+import ReactDOM from "react-dom/client";
+import Routerx from "routes/Routerx";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import "style/index.css";
+import "style/corners.css";
+import "style/bars.css";
+import "style/form.css";
+import "style/details.css";
+import "style/texts.css";
+import "style/awesome.css";
+import "style/errors.css";
+import "style/pops.css";
+import "style/boots.css";
+import "style/buttons.css";
+import "style/responsive.css";
+import "style/phone.css";
+import React from "react";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<Routerx />);

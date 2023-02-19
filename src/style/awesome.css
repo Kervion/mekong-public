@@ -1,0 +1,22 @@
+/* IKONKI */
+.awesome {
+  margin-right: 8px;
+}
+.awesome_small {
+  margin-right: 12px;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+.awesome_szarawy {
+  color: var(--szarawy);
+}
+.awesome_light {
+  color: var(--antiquewhite);
+}
+.aw_pointer:hover {
+  cursor: pointer;
+}
+.aw_yellow:hover {
+  color: var(--brazawy);
+  cursor: pointer;
+}

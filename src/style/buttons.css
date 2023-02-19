@@ -1,0 +1,59 @@
+/* BUTON TRIPLE */
+.triple_details {
+  background-color: var(--szarawy) !important;
+  color: var(--bciemny) !important;
+  border-color: var(--bciemny) !important;
+}
+.tripleReject_details,
+.tripleAccept_details {
+  background-color: var(--bciemny) !important;
+  color: var(--antiquewhite) !important;
+  border-color: var(--bciemny) !important;
+  min-width: 60px;
+}
+.tripleReject_details:hover,
+.tripleAccept_details:hover {
+  background-color: var(--ciemnyziel) !important;
+}
+
+/* BIG BUTON REJECT IN MODAL */
+.btnReject_details {
+  background-color: var(--szarawy) !important;
+  border: 1px solid var(--ciemny) !important;
+  color: var(--bciemny) !important;
+  width: 200px;
+  margin-top: 20px;
+}
+.btnReject_details:hover {
+  background-color: var(--niebieskawy) !important;
+  border: 1px solid var(--niebieskawy) !important;
+  color: var(--bciemny) !important;
+}
+.btnReject_details:active,
+.btnReject_details:focus {
+  background-color: var(--niebieskawy) !important;
+  border: 1px solid var(--niebieskawy) !important;
+  color: var(--antiquewhite) !important;
+}
+
+/* BOTTOM BUTTONS */
+.short_buttons {
+  width: 160px !important;
+}
+.button_bottom_nav {
+  width: 45%;
+  height: 40px !important;
+  --bs-btn-bg: var(--szarawy) !important;
+  --bs-btn-border-color: var(--ciemny) !important;
+  --bs-btn-color: var(--bciemny) !important;
+  --bs-btn-hover-bg: var(--niebieskawy) !important;
+  --bs-btn-hover-border-color: var(--ciemny) !important;
+  --bs-btn-hover-color: var(--bciemny) !important;
+  --bs-btn-active-bg: var(--niebieskawy) !important;
+  --bs-btn-active-border-color: var(--ciemny) !important;
+  --bs-btn-active-color: var(--bciemny) !important;
+}
+.button_bottom_nav:focus,
+.button_bottom_nav:active {
+  outline: 0;
+}

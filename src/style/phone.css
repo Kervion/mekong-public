@@ -1,0 +1,117 @@
+@media only screen and (max-width: 800px) {
+  /* HOME */
+  .card_phone {
+    min-width: 120px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: black;
+  }
+  .cards_responsive {
+    margin: 6px;
+  }
+  .offcanvas {
+    background-color: var(--szarawy) !important;
+  }
+  .linkFooter_bars a {
+    color: var(--szarawy) !important;
+  }
+  .linkFooter_bars a:hover {
+    color: var(--niebieskawy) !important;
+  }
+  .navlink_bars {
+    margin: 20px 30px;
+    font-size: 24px;
+  }
+  .navlink_bars:hover,
+  .active {
+    color: var(--antiquewhite) !important;
+  }
+  h3 {
+    color: var(--szarawy);
+    font-family: "Grey Qo", cursive;
+    margin-top: 8px !important;
+    font-size: 40px !important;
+    margin-right: 28px;
+  }
+  .cont_info_phone {
+    padding: 100px 20px;
+  }
+  .offtitle {
+    color: var(--bciemny);
+    font-family: "Grey Qo", cursive;
+    font-size: 40px !important;
+  }
+  .title_h4_texts {
+    padding: 0px 20px !important;
+    font-size: 44px !important;
+  }
+  .drop_phone .dropdown-menu {
+    display: none !important;
+  }
+
+  /* BUTTON COUNTER */
+  .smButtCommon {
+    color: black !important;
+    background-color: var(--siano) !important;
+    border: 1px solid var(--ciemny) !important;
+    height: 30px !important;
+    width: 30px !important;
+  }
+  .smButtCommon:hover,
+  .smButtCommon:focus {
+    background-color: var(--brazawy) !important;
+  }
+  .smallButt {
+    border: none !important;
+    border-bottom: 1px solid black !important;
+  }
+  .smallButtLeft {
+    border-right: none !important;
+  }
+  .smallButtRight {
+    border-left: none !important;
+  }
+
+  /* FORMS */
+  .button_bottom_nav {
+    width: 35% !important;
+  }
+  .singleLineDetails {
+    min-width: 400px !important;
+  }
+  .column_forms {
+    text-align: left;
+    min-width: 300px;
+    padding: 10px;
+  }
+  .container_main {
+    width: 90vw !important;
+    margin-top: 100px !important;
+    margin-bottom: 0px !important;
+  }
+  .bigger_texts {
+    text-align: left;
+    padding: 14px;
+  }
+  .popover_pops {
+    border: none !important;
+  }
+  .form-label {
+    color: var(--ciemnyziel) !important;
+  }
+  .aw_width_phone {
+    width: 40px;
+  }
+  .awesome_light {
+    color: var(--ciemnyziel) !important;
+  }
+  .cont_form_phone {
+    padding: 0px !important;
+    padding-top: 100px !important;
+    overflow-x: hidden;
+    overflow-y: overlay;
+  }
+  .kfull {
+    background-color: var(--antiquewhite);
+  }
+}

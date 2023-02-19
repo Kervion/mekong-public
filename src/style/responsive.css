@@ -1,0 +1,27 @@
+@media screen and (max-width: 1199px) and (min-width: 801px) {
+  .titleNav_bars,
+  .aw_width_phone,
+  .awesome_small {
+    display: none;
+  }
+  .title_h4_texts {
+    font-size: 36px;
+  }
+  .resp {
+    font-size: 16px;
+  }
+  .contform {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .container_main {
+    box-shadow: none;
+    border: none;
+  }
+  .infoBckgr_texts {
+    padding: 50px 10px 30px 10px;
+    background: var(--antiquewhite);
+  }
+}

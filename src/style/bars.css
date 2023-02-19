@@ -1,0 +1,45 @@
+.navbar_bars,
+footer {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* FOOTER */
+footer {
+  bottom: 0px;
+  font-size: 12px;
+  height: 40px;
+}
+.linkFooter_bars a {
+  color: var(--ciemny);
+}
+.linkFooter_bars a:hover {
+  color: var(--szarawy);
+}
+
+/* NAWIGACJA */
+.navbar_bars {
+  top: 0px;
+  font-size: 24px;
+  height: 60px;
+}
+.titleNav_bars {
+  font-family: "Grey Qo", cursive;
+  font-size: 38px;
+  font-weight: 400;
+  color: var(--szarawy);
+}
+nav a.navlink_bars {
+  color: var(--siano);
+  margin-right: 24px;
+  font-size: 16px;
+}
+nav a.navlink_bars:hover,
+nav a.active {
+  color: var(--antiquewhite);
+}

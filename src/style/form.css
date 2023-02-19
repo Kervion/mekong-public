@@ -1,0 +1,89 @@
+/* INNE */
+.costNumber_forms {
+  background-color: var(--bciemny) !important;
+  width: 90%;
+  text-align: left;
+  color: var(--antiquewhite) !important;
+  padding: 7px 20px;
+}
+.info_texts {
+  margin-bottom: 12px;
+}
+
+/* KOLUMNY */
+.kolumna_forms {
+  text-align: left;
+  color: var(--bciemny);
+  padding: 20px !important;
+  height: 100%;
+}
+.kcenter {
+  background: linear-gradient(to bottom, rgb(250, 235, 215, 0), rgb(250, 235, 215, 1));
+}
+.kleft {
+  background-image: radial-gradient(farthest-side at 100% 100%, rgb(250, 235, 215, 1), rgb(250, 235, 215, 0));
+}
+.kright {
+  background-image: radial-gradient(farthest-side at 0% 100%, rgb(250, 235, 215, 1), rgb(250, 235, 215, 0));
+}
+.lefttopcorner {
+  border-top-left-radius: 10px;
+}
+.righttopcorner {
+  border-top-right-radius: 10px;
+}
+.column_forms {
+  text-align: left;
+  min-width: 300px;
+  padding: 20px;
+}
+.row_forms {
+  background-color: rgba(169, 178, 135, 0.5);
+  padding: 0px;
+  margin: 0px;
+  width: 90%;
+}
+
+/* BUTTON COUNTER */
+.smButtCommon {
+  color: var(--ciemny) !important;
+  background-color: var(--antiquewhite) !important;
+  border: 1px solid var(--antiquewhite) !important;
+  height: 28px !important;
+  margin-bottom: 4px !important;
+  padding: 0px 8px !important;
+  border: 1px solid rgba(250, 235, 215, 0.3) !important;
+}
+.smButtCommon:hover,
+.smButtCommon:focus {
+  background-color: var(--brazawy) !important;
+}
+.smallButt {
+  border-radius: 0px !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+.smallButtLeft {
+  border-radius: 6px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border-right: none !important;
+}
+.smallButtRight {
+  border-radius: 6px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-left: none !important;
+}
+
+/* DATEPICKER */
+.datepickerOverride {
+  background-color: var(--antiquewhite) !important;
+  border: 1px solid var(--ciemny) !important;
+  color: var(--bciemny) !important;
+  min-height: calc(1.5em + 0.5rem + 2px);
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  border-radius: 0.25rem;
+  outline: 0;
+}

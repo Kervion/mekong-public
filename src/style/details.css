@@ -1,0 +1,26 @@
+/*  DETAILS */
+.costNo_details {
+  background-color: var(--ciemnyziel);
+  text-align: left;
+  color: var(--antiquewhite);
+  padding: 4px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.costbelka_left_details {
+  width: 10%;
+  text-align: left;
+}
+.costbelka_right_details {
+  width: 10%;
+  text-align: right;
+}
+.singleVisible_details {
+  background-color: var(--szarawy);
+  margin: 0px;
+  padding: 12px 40px;
+}
+.singleLineDetails {
+  min-width: 800px;
+}
